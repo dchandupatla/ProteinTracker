@@ -5,8 +5,10 @@
 <body>
   <h1>Protein Tracker</h1>
   {{> loginButtons}}
+  {{#if currentUser}}
   {{> userDetails}}
   {{> history}}
+  {{/if}}
 
  
 
